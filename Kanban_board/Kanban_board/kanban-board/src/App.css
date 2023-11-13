@@ -1,0 +1,53 @@
+/* src/App.css */
+.kanban-board {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.kanban-column {
+  background: #e3e3e3;
+  padding: 15px;
+  width: 30%;
+}
+
+.kanban-column h2 {
+  text-align: center;
+  color: #333;
+}
+
+.kanban-column ul {
+  padding: 0;
+  list-style: none;
+}
+
+.kanban-column li {
+  background: #ffffff;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  background: #50b3a2;
+  padding: 10px;
+}
+
+nav a {
+  color: #ffffff;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.new-task-page form {
+  max-width: 300px;
+  margin: auto;
+  padding: 10px;
+  background: #ffffff;
+}
+
+.new-task-page label,
+.new-task-page button {
+  display: block;
+  margin-bottom: 10px;
+}
